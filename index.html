@@ -1,94 +1,143 @@
 
-
 <!DOCTYPE html>
-<html lang="zh-CN">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<title>周辉</title>
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="周辉 &raquo; Feed" href="https://zhouhui.hk/feed" />
-<link rel="alternate" type="application/rss+xml" title="周辉 &raquo; 评论Feed" href="https://zhouhui.hk/comments/feed" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/zhouhui.hk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.1"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1; user-scalable=no;" />
+<title>周辉名片</title>
+<meta name="description" content="我的名片、我做主、我是周辉，我为自己代言"/>
+
+
+<style>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+
+/* Elements */
+
+body { background:#f3f3f3; font-family:Helvetica,"微软雅黑","黑体",Arial,Tahoma;line-height:1.5;text-shadow:0 1px 0px #fff;text-align:center;margin-top:40px;color:#666; }
+
+a:link,a:visited { color:#55a;text-decoration:none; }
+a:hover, a:active { color:#55a;text-decoration:underline; }
+
+/* Elements */
+
+
+.left {float:left}
+.right {float:right}
+.clear {clear:both}
+
+
+.mask { background:#fff;width:100%;height:100%;position:absolute;z-index:998;top:0;left:0;opacity:0.8; }
+
+.dialog { width:400px;border:1px solid #bebebe;position:absolute;z-index:999;box-shadow:0 6px 10px #ccc;border-radius:3px; }
+.dialogContainer { width:100%;border-top:1px solid #fff;background:#333;border-radius:4px;background: -moz-linear-gradient(top, #f0f0f0, #e5e5e5);background: -webkit-gradient(linear, 0 0, 0 100%, from(f0f0f0), to(e5e5e5));}
+.dialogContent { min-height:60px;padding:40px 20px 10px;font-size:20px;color:#666;text-shadow:0 1px 0 #fff;text-align:center;}
+
+
+
+.dialogOperator { padding:10px 20px 20px;text-align:center;margin:0 auto;overflow:hidden; }
+.dialogOperator .inwrap{ float:left; position:relative; left:50%;}
+.dialogOperator .wrapContent { float:left; position:relative; left:-50%; }
+.dialog a.btn { display:block;border-radius:3px;float:left;text-align:center;text-decoration:none;margin:0px 5px 1px 5px; }
+.dialog a.btn b { display:block;height:30px;border-radius:2px;font-size:16px;line-height:30px;text-shadow:none;text-align:center;padding:0 40px;}
+.dialog a.btn:active { margin:1px 5px 0 5px; }
+
+.tourTip .dialogContainer {background:#f0f0f0;background: -moz-linear-gradient(top, #fff, #f9f9f9);background: -webkit-gradient(linear, 0 0, 0 100%, from(fff), to(f9f9f9));}
+.tourTipContent {padding:50px 20px 20px;  }
+.tourTipContent .desc {padding:20px 0;  }
+
+.dialog a.btnClose { position:absolute;right:0;margin:10px;width:24px;height:24px;border-radius:20px;}
+.dialog a.btnClose:hover,.dialog a.btnClose:active { background:#ddd;}
+
+.dialog a.btnClose img { margin:5px 5px 5px 5px; }
+/* Layout */
+
+.container {}
+.clr { clear:both;height:1px;overflow:hidden; }
+.clrLeft { clear:left;height:1px;overflow:hidden; }
+.clrRight { clear:right;height:1px;overflow:hidden; }
+
+
+
+.loginPanel { margin: 10px auto; height:380px; border-radius:4px;text-align:center; }
+
+.loginPanel .title { border-radius:4px 4px 0 0;height:50px;text-shadow:0 1px 0 #fff;font-size:32px;line-height:50px; }
+
+.loginPanel .panelContent { padding:20px; }
+
+.loginPanel .qrcode { width:200px; box-shadow:0 6px 6px #999999; }
+.loginPanel .info { margin:10px 0 0; }
+.loginPanel .normlDesc { }
+.loginPanel .errorMsg { display:none; }
+.loginPanel a.operatorBtn { margin-top:10px; }
+
+
+.zoomIn { cursor:-webkit-zoom-in; cursor: -moz-zoom-in;  }
+.zoomOut { cursor:-webkit-zoom-out; cursor: -moz-zoom-out; }
+
+
+
+
+
+/* Color Scheme */
+
+.slidePic { position:absolute;float:left; }
+.slidePic img { position:absolute;box-shadow:0px 4px 30px #333;z-index:49; }
+
+.normalPanel { }
+
+.lightText { color:#ccc;}
+
+/*tmp style*/ 
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://zhouhui.hk/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='arke-style-css'  href='https://zhouhui.hk/wp-content/themes/arke/style.css?ver=5.1.1' type='text/css' media='all' />
-<script type='text/javascript' src='https://zhouhui.hk/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='https://zhouhui.hk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://zhouhui.hk/wp-content/plugins/wplegalpages/admin/js/jquery.cookie.js?ver=5.1.1'></script>
-<link rel='https://api.w.org/' href='https://zhouhui.hk/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://zhouhui.hk/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://zhouhui.hk/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.1.1" />
-	</head>
-	<body class="home blog">
-			<header class="site-header clear">
-					<div class="site-branding">
+</head>
+<body>
+<div id="title">
+</div>
+<div class="main">
 
-						
-							<h1 class="site-title">
-								<a href="https://zhouhui.hk/" rel="home">
-									周辉								</a>
-							</h1>
+<div class="loginPanel normalPanel">
+<div class="title">周辉名片</div>
+<div class="waiting panelContent">
+<img class="qrcode lightBorder" src="/img/my2.jpg">
+<div class="info">
+<p class="normlDesc">姓名：周辉&nbsp;<img src="/img/tel-img.png">&nbsp;|&nbsp;学位：博士&nbsp;<img src="/img/tel-img.png"></p>
 
-						
-					</div><!-- .site-branding -->
-					<nav id="site-navigation" class="menu-1">
-							<div class="menu-menu-1-container"><ul id="site-menu" class="menu"><li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://zhouhui.hk/%e7%a7%81%e9%9a%90%e6%94%bf%e7%ad%96">私隐政策</a></li>
-<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://zhouhui.hk/%e9%87%8d%e8%a6%81%e5%91%8a%e7%a4%ba">重要告示</a></li>
-</ul></div>					</nav><!-- .menu-1 -->
-			</header><!-- .site-header -->
-			<div class="site-content">
-					<div class="content-area">
+<p class="normlDesc">手机联系:&nbsp;&nbsp;<a href="tel:13533206627">拨号</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="sms:13533206627">短信</a></p>
+<p class="normlDesc">E-Mail: info@zhouhui.org</p>
 
-<article class="post-42 post type-post status-publish format-standard hentry category-hk">
 
-	
-	<header class="entry-header">
 
-		<h2 class="entry-title"><a href="https://zhouhui.hk/archives/42.html" rel="bookmark">2018-08-25</a></h2>
-	</header><!-- .entry-header -->
 
-	<div class="entry-content">
-		<p><img class="wp-image-41 alignnone size-full" src="https://zhouhui.hk/wp-content/uploads/2018/08/img_20180506_170346_0805485013027285690692.jpg" width="720" height="720" srcset="https://zhouhui.hk/wp-content/uploads/2018/08/img_20180506_170346_0805485013027285690692.jpg 720w, https://zhouhui.hk/wp-content/uploads/2018/08/img_20180506_170346_0805485013027285690692-150x150.jpg 150w, https://zhouhui.hk/wp-content/uploads/2018/08/img_20180506_170346_0805485013027285690692-300x300.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /></p>
-	</div><!-- .entry-content -->
+<p><img class="qrcode lightBorder" src="/img/weixin.jpg"></p>
 
-</article><!-- #post-## -->
+<a href="http://www.miitbeian.gov.cn" rel="nofollow" target="_blank" style="color:#8a8a8a">粤ICP备09205380号</a> 
 
-<article class="post-30 post type-post status-publish format-standard hentry category-hk">
 
-	
-	<header class="entry-header">
+</head>
+</div>
+</div>
+</div>
 
-		<h2 class="entry-title"><a href="https://zhouhui.hk/archives/30.html" rel="bookmark">2018-06-25</a></h2>
-	</header><!-- .entry-header -->
-
-	<div class="entry-content">
-		<p>見到有谷友坐完郵輪嬲爆，更加令我要推介呢隻Norwegian epic 遊西地中海7晚，連所有港口稅，香港來回巴塞機票，兩人三萬有找！可以不用再去付費餐廳，因為免費的已經好好</p>
-<p><img src="https://zhouhui.hk/wp-content/uploads/2018/06/fb_img_15299122777411807219844.jpg" class="alignnone wp-image-29 size-full" width="960" height="960" srcset="https://zhouhui.hk/wp-content/uploads/2018/06/fb_img_15299122777411807219844.jpg 960w, https://zhouhui.hk/wp-content/uploads/2018/06/fb_img_15299122777411807219844-150x150.jpg 150w, https://zhouhui.hk/wp-content/uploads/2018/06/fb_img_15299122777411807219844-300x300.jpg 300w, https://zhouhui.hk/wp-content/uploads/2018/06/fb_img_15299122777411807219844-768x768.jpg 768w" sizes="(max-width: 960px) 100vw, 960px" /></p>
-	</div><!-- .entry-content -->
-
-</article><!-- #post-## -->
-
-				</div><!-- .content-area -->
-		</div><!-- .site-content -->
-				<script type='text/javascript' src='https://zhouhui.hk/wp-includes/js/wp-embed.min.js?ver=5.1.1'></script>
-	</body>
+</div>
+</body>
 </html>
